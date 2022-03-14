@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-video360
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-video360"
+  s.homepage     = "https://github.com/anishmenon/react-native-video360"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "David" => "davichoso@gmail.com" }
-  s.source       = { :git => "https://github.com/github_account/react-native-video360.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/anishmenon/react-native-video360.git", :tag => "#{s.version}" }
  
   s.ios.framework = 'AudioToolbox','CoreMedia','VideoToolbox'
  # dev simulator
